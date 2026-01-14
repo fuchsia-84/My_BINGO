@@ -306,7 +306,7 @@
     * animateDraw: 数字をロールする。シャッフルしたデッキを時間で回す。
     * el: 数字を表示するテキスト要素
     * finalNumber: 最後に表示したい数値
-    * duration: デッキを回す時間 
+    * duration: デッキを回す時間
     * poolMax: 抽選する数字の最大値
     */
     function animateDraw(el, finalNumber, duration = 700, poolMax = max) {
@@ -369,7 +369,7 @@
 
     /*
     * launchConfetti: 紙吹雪アニメーション(canvas-confettiを使用)
-    * 
+    *
     */
     function launchConfetti(opts = {}) {
         confetti({
